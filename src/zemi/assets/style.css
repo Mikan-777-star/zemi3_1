@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.left {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.right {
+  flex: 1;
+  background-color: #fff;
+}
+
+input[type="text"], select, textarea {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 95%;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+button {
+  margin: 5px 0;
+}
